@@ -1,0 +1,31 @@
+form {
+    font: 14px Stem-Regular,arial, sans-serif;/*Выбираем шрифт */
+    border: 1px solid black;/*Цвет, размер и тип границы */
+    -webkit-border-radius: 20px;/*Скругляем углы */
+    color: #777991;/*Цвет label */
+    width: 25%; /*Ширина формы */
+    margin-right: auto; /*Положение формы */
+    margin-left: auto; /*Положение формы */
+    text-align: center; /*Центровка текста*/
+
+}
+
+button {
+    font: 16px Stem-medium, arial, sans-serif; /*Выбираем шрифт кнопки */
+    background-color: #454cee; /*Выбираем цвет фона */
+    -webkit-border-radius: 8px; /*Закругление */
+    color: white; /*Выбираем цвет текста*/
+    padding: 16px 20px; /*Размер внутренних отступов*/
+    margin: 8px 0;/*Размер внешних отступов*/
+    border: none; /*Без границы*/
+    cursor: pointer; /*Изменение курсора при наведении на кнопку*/
+    width: auto; /*Ширина*/
+}
+
+button:hover {
+    opacity: 0.9; /*Изменение яркости кнопки при наведении*/
+}
+
+.container {
+    padding: 30px;/*Размер внутренних отступов контейнера*/
+}
