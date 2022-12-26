@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<form method="POST">
-  <div class="container">
-      <label><b>Меню</b></label>
-      <button value="new">Новая игра</button>
-      <button value="statistic">Статистика</button>
-  </div>
-</form>
+<div class="container">
+    <h3>Меню</h3>
+    <form>
+        <button type="submit" value="Играть" name="new">Играть</button>
+        <button type="submit" value="Статистика" name="statistic">Статистика</button>
+    </form>
+</div>
 <link rel="stylesheet" href="{{ url_for('static', filename= 'css/menu.css') }}">

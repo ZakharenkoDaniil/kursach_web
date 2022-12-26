@@ -1,0 +1,11 @@
+<form method="POST">
+  <div class="container">
+    <label for="Word"><b>Введите слово</b></label>
+    <input type="text" placeholder="" name="Word" required>
+    <button type="submit">Проверить</button>
+    <h1>{{result}}</h1>
+  </div>
+</form>
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename= 'css/game.css') }}">
